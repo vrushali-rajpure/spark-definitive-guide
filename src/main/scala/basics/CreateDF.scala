@@ -5,7 +5,7 @@ import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.sql.types.{LongType, StringType, StructField, StructType}
 import org.apache.spark.sql.functions.{expr, col, column}
 
-class CreateDF {
+object CreateDF {
 
     def main(args: Array[String]): Unit = {
 
